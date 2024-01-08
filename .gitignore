@@ -11,6 +11,8 @@ node_modules
 dist
 dist-ssr
 *.local
+.next/cache/webpack/client-development
+.next/static
 
 # Editor directories and files
 .vscode/*
