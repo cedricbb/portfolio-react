@@ -27,10 +27,6 @@ I used `react`, `scss`, `jsx`
 
 ## Setup 💻
 - download or clone the repository
-- run `cd backend_sanity`
-- run `sanity init`
-- run `sanity start`
-- then run `cd frontend_react`
 - run `npm install`
 - then run `npm run dev`
 
