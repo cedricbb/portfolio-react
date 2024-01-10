@@ -18,8 +18,8 @@ const Home = () => {
         animate='show' 
         exit='hidden'
         className="h1">
-          <span className="text-accent">Imagination</span><br /> et{' '}
-          <span className="text-accent">Innovation Digitale</span>
+          <span className="text-accent">Imagination</span><br /> and{' '}
+          <span className="text-accent">Digital Innovation</span>
         </motion.h1>
         <motion.p
         variants={fadeIn('down', 0.3)} 
@@ -46,7 +46,7 @@ const Home = () => {
       </div>
     </div>
     <div className="w-[1200px] h-full absolute right-0 bottom-0">
-      <div className="bg-none xl:bg-explosion xl:bg-cover xl:bg-right xl:bg-no-repeat w-full h-full absolute mix-blend-color-dodge translate-z-0"></div>
+      <div className="bg-none xl:bg-explosion xl:bg-cover xl:bg-left xl:bg-no-repeat w-full h-full absolute mix-blend-color-dodge translate-z-0"></div>
       <div>
         <ParticlesContainer />
       </div>

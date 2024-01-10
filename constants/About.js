@@ -20,10 +20,10 @@ import {
 //  data
 export const aboutData = [
   {
-    title: 'Compétences',
+    title: 'Skills',
     info: [
       {
-        title: 'Développement Web',
+        title: 'Web Development',
         icons: [
           <FaHtml5 />,
           <FaCss3 />,
@@ -46,29 +46,29 @@ export const aboutData = [
     title: 'Hobbies',
     info: [
       {
-        title: 'Nouvelles Technologies'
+        title: 'New Technologies'
       },
       {
-        title: 'Jeux Vidéos',
+        title: 'Video Games',
       },
       {
-        title: 'IA',
+        title: 'AI',
       },
     ],
   },
   {
-    title: 'Expériences',
+    title: 'Works',
     info: [
       {
-        title: 'Développeur Fullstack - Arxama',
+        title: 'Fullstack Developer - Arxama',
         stage: '2017 - 2023',
       },
       {
-        title: 'Technicien Informatique - Passman',
+        title: 'IT Support Technician - Passman',
         stage: '2013 - 2016',
       },
       {
-        title: 'Résponsable logistique - Planète Mode',
+        title: 'Logistics Manager - Planète Mode',
         stage: '2007 - 2013',
       },
     ],
@@ -77,15 +77,15 @@ export const aboutData = [
     title: 'Formations',
     info: [
       {
-        title: 'Développeur Fullstack - Autodidacte',
+        title: 'Fullstack Developer - Self-taught',
         stage: '2011 - Présent',
       },
       {
-        title: 'Développeur d\'Application - WebForce 3',
+        title: 'Application Developer - WebForce 3',
         stage: '2017',
       },
       {
-        title: 'Technicien d\'Assistance Informatique - AFPA',
+        title: 'IT Support Technician - AFPA',
         stage: '2012 - 2013',
       },
     ],

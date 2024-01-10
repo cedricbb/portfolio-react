@@ -19,11 +19,11 @@ const About = () => {
         initial='hidden'
         animate='show'
         exit='hidden'
-        className="hidden xl:flex absolute bottom-0 -left-[170px]"
+        className="hidden xl:flex absolute bottom-0 -left-[300px]"
       >
         <Avatar />
       </motion.div>
-      <div className="container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6">
+      <div className="container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6 pt-12">
         <div className="flex-1 flex flex-col justify-center">
           <motion.h2
             variants={fadeIn('right', 0.2)}
@@ -31,7 +31,7 @@ const About = () => {
             animate='show'
             exit='hidden'
             className="h2">
-            Une <span className="text-accent">histoire captivante</span>.
+            About<span className="text-accent"> Myself</span>.
           </motion.h2>
           <motion.p
             variants={fadeIn('right', 0.4)}
@@ -39,12 +39,12 @@ const About = () => {
             animate='show'
             exit='hidden'
             className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0">
-            Développeur expérimenté, passionné par les nouvelles technologies et leurs évolutions croissantes,
-            j’ambitionne de mettre mes compétences à votre service. Grâce à un parcours de formation approfondi et à une somme
-            d’expériences professionnelles performante, je suis devenu perfectionniste dans la conception et
-            l’adaptation de sites et d’applications web. Je suis une personne méthodique et qui apprends
-            facilement. Je suis débrouillard et autonome
-            pour trouver des solutions aux points bloquants.
+            I'm an experienced developer with a passion for new technologies and their constant evolution,
+            my ambition is to put my skills to work for you. Thanks to my extensive training and a wealth of professional experience
+            experience, I've become a perfectionist when it comes to designing and adapting
+            and adaptation of web sites and applications. I'm a methodical learner who learns
+            easily. I'm resourceful and autonomous
+            to find solutions to sticking points.
           </motion.p>
           <motion.div
             variants={fadeIn('right', 0.6)}
@@ -57,25 +57,25 @@ const About = () => {
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
                   <CountUp start={0} end={10} duration={5} /> +
                 </div>
-                <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">Années d'expériences</div>
+                <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">Years of experiences</div>
               </div>
               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
                   <CountUp start={0} end={100} duration={5} /> +
                 </div>
-                <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">Clients satisfaits</div>
+                <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">Satisfied Clients</div>
               </div>
               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
                   <CountUp start={0} end={150} duration={5} /> +
                 </div>
-                <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">Projets réalisés</div>
+                <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">Projects Completed</div>
               </div>
               <div className="relative flex-1">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
                   <CountUp start={0} end={4} duration={5} /> +
                 </div>
-                <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">Cafés par jour</div>
+                <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">Coffees per day</div>
               </div>
             </div>
           </motion.div>
