@@ -5,84 +5,88 @@ import {
   FaJs,
   FaReact,
   FaWordpress,
-  FaFigma,
+  FaPhp
 } from "react-icons/fa";
 
 import {
   SiNextdotjs,
-  SiFramer,
   SiAdobexd,
   SiAdobephotoshop,
+  SiPrestashop,
+  SiMysql
 } from "react-icons/si";
 
 
 //  data
 export const aboutData = [
   {
-    title: 'skills',
+    title: 'Compétences',
     info: [
       {
-        title: 'Web Development',
+        title: 'Développement Web',
         icons: [
           <FaHtml5 />,
           <FaCss3 />,
           <FaJs />,
           <FaReact />,
           <SiNextdotjs />,
-          <SiFramer />,
           <FaWordpress />,
+          <SiPrestashop />,
+          <FaPhp />,
+          <SiMysql />
         ],
       },
       {
         title: 'UI/UX Design',
-        icons: [<FaFigma />, <SiAdobexd />, <SiAdobephotoshop />],
+        icons: [<SiAdobexd />, <SiAdobephotoshop />],
       },
     ],
   },
   {
-    title: 'awards',
+    title: 'Hobbies',
     info: [
       {
-        title: 'Webby Awards - Honoree',
-        stage: '2011 - 2012',
+        title: 'Nouvelles Technologies'
       },
       {
-        title: 'Adobe Design Achievement Awards - Finalist',
-        stage: '2009 - 2010',
+        title: 'Jeux Vidéos',
+      },
+      {
+        title: 'IA',
       },
     ],
   },
   {
-    title: 'experience',
+    title: 'Expériences',
     info: [
       {
-        title: 'UX/UI Designer - XYZ Company',
-        stage: '2012 - 2023',
+        title: 'Développeur Fullstack - Arxama',
+        stage: '2017 - 2023',
       },
       {
-        title: 'Web Developer - ABC Agency',
-        stage: '2010 - 2012',
+        title: 'Technicien Informatique - Passman',
+        stage: '2013 - 2016',
       },
       {
-        title: 'Intern - DEF Corporation',
-        stage: '2008 - 2010',
+        title: 'Résponsable logistique - Planète Mode',
+        stage: '2007 - 2013',
       },
     ],
   },
   {
-    title: 'credentials',
+    title: 'Formations',
     info: [
       {
-        title: 'Web Development - ABC University, LA, CA',
-        stage: '2011',
+        title: 'Développeur Fullstack - Autodidacte',
+        stage: '2011 - Présent',
       },
       {
-        title: 'Computer Science Diploma - AV Technical Institute',
-        stage: '2009',
+        title: 'Développeur d\'Application - WebForce 3',
+        stage: '2017',
       },
       {
-        title: 'Certified Graphic Designer - ABC Institute, Los Angeles, CA',
-        stage: '2006',
+        title: 'Technicien d\'Assistance Informatique - AFPA',
+        stage: '2012 - 2013',
       },
     ],
   },
