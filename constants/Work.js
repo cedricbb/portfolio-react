@@ -5,23 +5,26 @@ export const workSlider = {
         images: [
           {
             title: 'title1',
-            path: '/assets/images/thumb1.jpg',
-            link: 'https://google.com'
+            path: '/assets/images/thumb21.jpg',
+            demo: 'https://levieuxmoulinchinaillon.fr/'
           },
           {
             title: 'title2',
             path: '/assets/images/thumb2.jpg',
-            link: '2'
+            demo: '2',
+            github: 'github'
           },
           {
             title: 'title3',
             path: '/assets/images/thumb3.jpg',
-            link: '3'
+            demo: '3',
+            github: 'github'
           },
           {
             title: 'title4',
             path: '/assets/images/thumb4.jpg',
-            link: '4'
+            demo: '4',
+            github: 'github'
           },
         ],
       },
@@ -30,22 +33,26 @@ export const workSlider = {
           {
             title: 'title',
             path: '/assets/images/thumb4.jpg',
-            link: '4'
+            demo: '4',
+            github: 'github'
           },
           {
             title: 'title',
             path: '/assets/images/thumb1.jpg',
-            link: '4'
+            demo: '4',
+            github: 'github'
           },
           {
             title: 'title',
             path: '/assets/images/thumb2.jpg',
-            link: '4'
+            demo: '4',
+            github: 'github'
           },
           {
             title: 'title',
             path: '/assets/images/thumb3.jpg',
-            link: '4'
+            demo: '4',
+            github: 'github'
           },
         ],
       },
