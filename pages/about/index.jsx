@@ -42,7 +42,7 @@ const About = () => {
             I'm an experienced developer with a passion for new technologies and their constant evolution,
             my ambition is to put my skills to work for you. Thanks to my extensive training and a wealth of professional experience
             experience, I've become a perfectionist when it comes to designing and adapting
-            and adaptation of web sites and applications. I'm a methodical learner who learns
+            web sites and applications. I'm a methodical learner who learns
             easily. I'm resourceful and autonomous
             to find solutions to sticking points.
           </motion.p>
